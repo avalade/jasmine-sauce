@@ -11,7 +11,7 @@ module Sauce
       end
 
       def start
-        ::Guard::Jasmine::Server.start(@config.server, @config.port, 'test', 'spec/javascrips')
+        ::Guard::Jasmine::Server.start(@config.server, @config.port, 'test', 'spec/javascripts')
       end
 
       def stop
